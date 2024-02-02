@@ -1,3 +1,3 @@
 # algorithm-interview
 
-👨🏼‍💻 (https://leetcode.com/gndvrn/)[My Leetcode profile]
+👨🏼‍💻 [My Leetcode profile](https://leetcode.com/gndvrn/ "Click to see my Leetcode profile")
