@@ -32,12 +32,12 @@ def selection_sort(array: List[Union[int, float]],
 
 
 if __name__ == '__main__':
-    massive = [random.randint(-5000, 5000) for _ in range(5000 + 1)]
+    arr_ = [random.randint(-5000, 5000) for _ in range(5000 + 1)]
 
     computation_times = []
 
     start_time = time.time()  # Track compilation time
-    result = selection_sort(massive)  # Ascending selection sort
+    result = selection_sort(arr_)  # Ascending selection sort
     end_time = time.time()
 
     computation_times.append(end_time - start_time)
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     print('Average computational time: {} seconds'.format(
         sum(computation_times) / len(computation_times)), end='\n' * 2)
 
-    assert result == sorted(massive)
+    assert result == sorted(arr_)
